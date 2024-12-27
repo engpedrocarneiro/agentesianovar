@@ -4,7 +4,6 @@ import { Check, Zap } from 'lucide-react';
 const plans = [
   {
     name: 'Starter',
-    price: 'R$ 997',
     description: 'Ideal para pequenas empresas iniciando com IA',
     features: [
       '2 Agentes IA Personalizados',
@@ -16,7 +15,6 @@ const plans = [
   },
   {
     name: 'Professional',
-    price: 'R$ 2.497',
     description: 'Para empresas em crescimento',
     features: [
       '5 Agentes IA Personalizados',

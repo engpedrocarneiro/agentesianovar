@@ -218,12 +218,15 @@ export default function AgentDetails() {
         ))}
 
         <div className="text-center mt-12">
-          <button 
-            onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-400 transition-all hover:transform hover:scale-105"
+          <a 
+            href="https://www.agentesbr.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-400 transition-all hover:transform hover:scale-105"
           >
-            Solicite uma Demonstração
-          </button>
+            Teste Grátis
+            + 35 Agentes IA
+          </a>
         </div>
       </div>
     </section>

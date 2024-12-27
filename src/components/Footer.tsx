@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Facebook, Linkedin } from 'lucide-react';
+import { Instagram, Facebook, Linkedin, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -10,8 +11,8 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <img 
-                src="https://drive.google.com/file/d/19mJpvSTaj0KijTpG7UNFgtjvfZpk98Eo/view"
-                alt="IAnovar Logo"
+                src="/logos/logo2ianovar.jpeg"
+                alt="IAnovar - Ative o Futuro"
                 className="h-10 w-auto"
               />
             </div>
@@ -27,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="#inicio" className="text-blue-200 hover:text-blue-400 transition-colors">Início</a></li>
               <li><a href="#solucoes" className="text-blue-200 hover:text-blue-400 transition-colors">Soluções</a></li>
-              <li><a href="#casos" className="text-blue-200 hover:text-blue-400 transition-colors">Casos de Sucesso</a></li>
+              <li><a href="#depoimentos" className="text-blue-200 hover:text-blue-400 transition-colors">Casos de Sucesso</a></li>
               <li><a href="#sobre" className="text-blue-200 hover:text-blue-400 transition-colors">Sobre Nós</a></li>
             </ul>
           </div>
@@ -44,21 +45,53 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div id="contato">
             <h3 className="text-white font-semibold mb-4">Contato</h3>
-            <ul className="space-y-2">
-              <li className="text-blue-200">+55 34 99998-3213</li>
-              <li className="text-blue-200">agenciaianovar@gmail.com</li>
-              <li className="text-blue-200">Uberaba, MG - Brasil</li>
+            <ul className="space-y-4">
+              <li>
+                <a 
+                  href="https://wa.me/5534999983213" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center text-blue-200 hover:text-blue-400 transition-colors"
+                >
+                  <Phone className="w-5 h-5 mr-2" />
+                  +55 34 99998-3213
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="mailto:contato@ianovar.com.br" 
+                  className="flex items-center text-blue-200 hover:text-blue-400 transition-colors"
+                >
+                  <Mail className="w-5 h-5 mr-2" />
+                  contato@ianovar.com.br
+                </a>
+              </li>
             </ul>
-            <div className="flex space-x-4 mt-4">
-              <a href="https://instagram.com/ia_novar" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-blue-400 transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="https://facebook.com/profile.php?id=61561171407022" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-blue-400 transition-colors">
+            <div className="flex space-x-4 mt-6">
+              <a 
+                href="https://www.facebook.com/ianovar-ative-o-futuro" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-200 hover:text-blue-400 transition-colors bg-blue-800/30 p-2 rounded-full hover:bg-blue-800/50"
+              >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/company/ianovar-ative-o-futuro" target="_blank" rel="noopener noreferrer" className="text-blue-200 hover:text-blue-400 transition-colors">
+              <a 
+                href="https://www.instagram.com/ia_novar" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-200 hover:text-blue-400 transition-colors bg-blue-800/30 p-2 rounded-full hover:bg-blue-800/50"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/ianovar-ative-o-futuro" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-200 hover:text-blue-400 transition-colors bg-blue-800/30 p-2 rounded-full hover:bg-blue-800/50"
+              >
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -71,12 +104,12 @@ export default function Footer() {
               © 2024 IAnovar. Todos os direitos reservados.
             </p>
             <div className="flex space-x-4 mt-4 md:mt-0">
-              <a href="/privacidade" className="text-blue-200 hover:text-blue-400 transition-colors text-sm">
+              <Link to="/privacidade" className="text-blue-200 hover:text-blue-400 transition-colors text-sm">
                 Política de Privacidade
-              </a>
-              <a href="/termos" className="text-blue-200 hover:text-blue-400 transition-colors text-sm">
+              </Link>
+              <Link to="/termos" className="text-blue-200 hover:text-blue-400 transition-colors text-sm">
                 Termos de Uso
-              </a>
+              </Link>
             </div>
           </div>
         </div>

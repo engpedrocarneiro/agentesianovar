@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
-import { ArrowRight, Bot, Zap, BarChart, Download } from 'lucide-react';
+import { ArrowRight, Zap, BarChart, Download } from 'lucide-react';
 import DownloadForm from './DownloadForm';
 
 export default function Hero() {
   const [showDownloadForm, setShowDownloadForm] = useState(false);
 
   const handleDemoClick = () => {
-    const contactSection = document.getElementById('contato');
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    window.open('https://ianovar.com.br/imosmartagenda/', '_blank');
   };
 
   return (
@@ -27,7 +24,11 @@ export default function Hero() {
       <div className="container mx-auto px-4 pt-24 relative z-10">
         <div className="max-w-3xl">
           <div className="flex items-center gap-2 mb-6">
-            <Bot className="w-8 h-8 text-blue-200" />
+            <img 
+              src="/logos/estrategiasavancadas.jpeg" 
+              alt="Estratégias Avançadas" 
+              className="w-12 h-12 object-contain rounded-lg bg-white/10 p-1"
+            />
             <span className="text-blue-200 font-semibold">Inteligência Artificial para Negócios</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight">
@@ -40,7 +41,11 @@ export default function Hero() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="flex items-center gap-3 text-white">
-              <Bot className="w-5 h-5 text-blue-200" />
+              <img 
+                src="/logos/agents.jpeg" 
+                alt="Agentes IA" 
+                className="w-6 h-6 object-contain rounded"
+              />
               <span>Agentes IA Inteligentes</span>
             </div>
             <div className="flex items-center gap-3 text-white">
@@ -86,9 +91,11 @@ export default function Hero() {
         )}
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-8 h-12 rounded-full border-2 border-white flex items-start justify-center p-2">
-          <div className="w-1 h-3 bg-white rounded-full animate-scroll"></div>
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-4">
+        <div className="animate-bounce">
+          <div className="w-8 h-12 rounded-full border-2 border-white flex items-start justify-center p-2">
+            <div className="w-1 h-3 bg-white rounded-full animate-scroll"></div>
+          </div>
         </div>
       </div>
     </div>

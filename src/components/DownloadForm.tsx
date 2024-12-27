@@ -7,28 +7,32 @@ const MATERIALS = [
     title: 'E-book: Transformando Negócios com IA',
     icon: Book,
     description: 'Guia completo sobre como a IA está revolucionando as empresas',
-    url: 'https://drive.google.com/file/d/1rMMG9rwqu5wIjb7ZjVqtzvhC28HqN8eP/view'
+    filePath: '/materiais/ianovar-ebook.pdf',
+    logo: '/logos/ianovar.jpg'
   },
   {
     id: 'agents',
     title: 'Catálogo de Agentes IA',
     icon: Bot,
     description: 'Conheça todos os nossos agentes IA e suas capacidades',
-    url: 'https://drive.google.com/file/d/1FNipD0inNx5RI1rdBf3RByE2bIkPsaXw/view'
+    filePath: '/materiais/Catalogo-Agentes.pdf',
+    logo: '/logos/agents.jpeg'
   },
   {
     id: 'automations',
     title: 'Catálogo de Automações',
     icon: FileText,
     description: 'Explore nossas soluções de automação inteligente',
-    url: 'https://drive.google.com/file/d/1yWwwQ2QSVw7sqn6LsUQNKxAQShfHEVcO/view'
+    filePath: '/materiais/automacao.pdf',
+    logo: '/logos/data-analysis.jpeg'
   },
   {
     id: 'realestate',
     title: 'Soluções para Imobiliárias',
     icon: Home,
     description: 'Folder completo de automação e IA para o mercado imobiliário',
-    url: 'https://drive.google.com/file/d/1QGazz4eoTNnE3b5oKjzGTbkbVSwX_9BN/view'
+    filePath: '/materiais/imosmart.pdf',
+    logo: '/logos/imosmart.jpeg'
   }
 ];
 
@@ -64,8 +68,13 @@ export default function DownloadForm({ onClose }: { onClose: () => void }) {
       const selectedMaterial = MATERIALS.find(m => m.id === formData.selectedMaterial);
       
       if (selectedMaterial) {
-        // Abrir o link em nova aba
-        window.open(selectedMaterial.url, '_blank');
+        // Criar um link temporário para download
+        const link = document.createElement('a');
+        link.href = selectedMaterial.filePath;
+        link.download = selectedMaterial.title + '.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
       }
       
       setSuccess(true);
@@ -116,9 +125,11 @@ export default function DownloadForm({ onClose }: { onClose: () => void }) {
               className="absolute opacity-0"
             />
             <div className="flex items-center gap-3 mb-2">
-              <material.icon className={`w-6 h-6 ${
-                formData.selectedMaterial === material.id ? 'text-blue-500' : 'text-gray-400'
-              }`} />
+              <img 
+                src={material.logo} 
+                alt={material.title}
+                className="w-8 h-8 object-contain"
+              />
               <span className="font-semibold text-gray-900">{material.title}</span>
             </div>
             <p className="text-sm text-gray-600">{material.description}</p>

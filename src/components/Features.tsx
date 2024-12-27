@@ -19,10 +19,10 @@ export default function Features() {
             <div className="bg-blue-800/90 backdrop-blur-sm rounded-xl shadow-lg p-6 border border-blue-700/50">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-sm text-blue-100">Eficiência</span>
-                <span className="text-blue-200 font-semibold">+85%</span>
+                <span className="text-blue-200 font-semibold">+95%</span>
               </div>
               <div className="w-full bg-blue-900/50 rounded-full h-2">
-                <div className="bg-blue-400 h-2 rounded-full" style={{ width: '85%' }}></div>
+                <div className="bg-blue-400 h-2 rounded-full" style={{ width: '95%' }}></div>
               </div>
             </div>
 
@@ -73,7 +73,7 @@ export default function Features() {
           {/* Right side - Image */}
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80"
+              src="/logos/ianovar.jpg"
               alt="IA em ação"
               className="rounded-2xl w-full h-auto object-cover shadow-lg"
             />

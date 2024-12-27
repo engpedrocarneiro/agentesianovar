@@ -1,0 +1,227 @@
+[Previous content remains the same until "## Instruções para Atendimento"]
+
+## Planos e Preços
+
+### Modelo de Precificação
+- Baseado em consumo e número de agentes ativos
+- Planos personalizados por volume e necessidade
+- Sem custos ocultos ou taxas de setup
+- Faturamento mensal ou anual com desconto
+
+### Planos Disponíveis
+1. Starter
+   - Ideal para pequenas empresas
+   - Até 3 agentes simultâneos
+   - Suporte por email
+   - Integrações básicas
+
+2. Professional
+   - Para empresas em crescimento
+   - Até 10 agentes simultâneos
+   - Suporte prioritário
+   - Integrações avançadas
+   - Personalização de agentes
+
+3. Enterprise
+   - Para grandes operações
+   - Agentes ilimitados
+   - Suporte dedicado 24/7
+   - Integrações customizadas
+   - Personalização completa
+   - SLA garantido
+
+## Integrações Disponíveis
+
+### CRM
+- Salesforce
+- HubSpot
+- RD Station
+- Pipedrive
+- Microsoft Dynamics
+- Custom CRM (via API)
+
+### Comunicação
+- WhatsApp Business API
+- Telegram
+- Facebook Messenger
+- Instagram Direct
+- Email (SMTP/IMAP)
+- SMS
+
+### Calendários
+- Google Calendar
+- Microsoft Outlook
+- iCalendar
+- Calendly
+
+### Ferramentas de Marketing
+- Google Analytics
+- Meta Ads
+- Google Ads
+- MailChimp
+- Active Campaign
+- RD Station Marketing
+
+### Sistemas ERP
+- SAP
+- Oracle
+- Totvs
+- Custom ERP (via API)
+
+## Casos de Sucesso
+
+### Setor Imobiliário
+- Cliente: Imobiliária de grande porte
+- Desafio: Alto volume de leads não qualificados
+- Solução: Agente IA de INBOUND LEADS + Agente de Agendamentos
+- Resultados:
+  * Redução de 70% no tempo de resposta
+  * Aumento de 45% na taxa de conversão
+  * Economia de 30% em custos operacionais
+
+### E-commerce
+- Cliente: Loja online de médio porte
+- Desafio: Atendimento 24/7 e suporte pós-venda
+- Solução: Agente Especialista em Atendimento
+- Resultados:
+  * 90% dos tickets resolvidos automaticamente
+  * Satisfação do cliente aumentou 60%
+  * Redução de 50% no tempo de resposta
+
+### B2B Software
+- Cliente: Empresa de software empresarial
+- Desafio: Escalabilidade da prospecção
+- Solução: Agente IA SDR + Agente de Follow-up
+- Resultados:
+  * 3x mais reuniões qualificadas
+  * Redução de 40% no CAC
+  * Aumento de 80% no pipeline
+
+## Segurança e Conformidade
+
+### Certificações
+- ISO 27001
+- SOC 2 Type II
+- LGPD Compliant
+
+### Medidas de Segurança
+1. Criptografia
+   - Em repouso (AES-256)
+   - Em trânsito (TLS 1.3)
+   - Chaves gerenciadas pelo cliente
+
+2. Controle de Acesso
+   - Autenticação multi-fator
+   - SSO empresarial
+   - Controles granulares de permissão
+
+3. Monitoramento
+   - Logs de auditoria
+   - Monitoramento 24/7
+   - Alertas em tempo real
+
+4. Backup e Recuperação
+   - Backup automático diário
+   - Retenção configurável
+   - Recuperação point-in-time
+
+## Suporte e Sucesso do Cliente
+
+### Níveis de Suporte
+1. Basic
+   - Email support
+   - Tempo de resposta: 24h
+   - Base de conhecimento
+   - Comunidade online
+
+2. Premium
+   - Suporte por chat e email
+   - Tempo de resposta: 4h
+   - Treinamentos mensais
+   - Gerente de sucesso compartilhado
+
+3. Enterprise
+   - Suporte 24/7
+   - Tempo de resposta: 1h
+   - Treinamentos personalizados
+   - Gerente de sucesso dedicado
+
+### Processo de Implementação
+1. Onboarding
+   - Reunião inicial de alinhamento
+   - Definição de objetivos
+   - Planejamento de implementação
+   - Configuração inicial
+
+2. Treinamento
+   - Sessões de treinamento
+   - Materiais de apoio
+   - Certificação da equipe
+   - Workshops práticos
+
+3. Acompanhamento
+   - Reuniões semanais
+   - Relatórios de performance
+   - Ajustes e otimizações
+   - Planejamento de expansão
+
+## Instruções para Atendimento
+
+[Previous instructions remain the same]
+
+## Objeções Comuns e Respostas
+
+1. "É muito caro"
+   R: Demonstre ROI com casos de sucesso e calculadora de retorno
+
+2. "Já temos uma equipe"
+   R: Explique como os agentes complementam e potencializam a equipe existente
+
+3. "Não confio em IA"
+   R: Mostre casos de sucesso e explique as medidas de segurança
+
+4. "É complexo demais"
+   R: Destaque o suporte na implementação e facilidade de uso
+
+5. "Precisamos pensar mais"
+   R: Ofereça demonstração gratuita e casos de uso específicos
+
+## Processo de Vendas
+
+1. Qualificação
+   - Entender necessidades
+   - Identificar casos de uso
+   - Avaliar maturidade digital
+
+2. Demonstração
+   - Apresentar soluções relevantes
+   - Mostrar casos de sucesso
+   - Responder dúvidas técnicas
+
+3. Proposta
+   - Customizar solução
+   - Apresentar pricing
+   - Definir cronograma
+
+4. Fechamento
+   - Alinhar expectativas
+   - Definir próximos passos
+   - Iniciar implementação
+
+## Materiais de Apoio
+
+### Documentos Disponíveis
+- Catálogo completo de agentes
+- Casos de sucesso detalhados
+- Guias técnicos de integração
+- Manuais de implementação
+- Políticas de segurança
+- Contratos e termos
+
+### Recursos Online
+- Blog com atualizações
+- Webinars mensais
+- Base de conhecimento
+- Comunidade de usuários
+- Vídeos tutoriais
+- FAQ detalhado

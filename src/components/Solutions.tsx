@@ -1,34 +1,33 @@
 import React from 'react';
-import { Bot, MessageSquare, LineChart, Zap, Users, ShieldCheck } from 'lucide-react';
 
 const solutions = [
   {
-    icon: MessageSquare,
+    icon: '/logos/atendimento.jpeg',
     title: 'Atendimento ao Cliente',
     description: 'Automatize o suporte 24/7 com agentes IA que entendem e resolvem as necessidades dos seus clientes.',
   },
   {
-    icon: LineChart,
+    icon: '/logos/crmestrategia.jpeg',
     title: 'Automação de Vendas',
     description: 'Potencialize seu funil de vendas com agentes IA que qualificam leads e fazem follow-up automatizado.',
   },
   {
-    icon: Zap,
+    icon: '/logos/mktautomacao.jpeg',
     title: 'Marketing Digital',
     description: 'Otimize suas campanhas com IA que personaliza conteúdo e automatiza interações em múltiplos canais.',
   },
   {
-    icon: Users,
+    icon: '/logos/analisesatisfacaofeedback.jpeg',
     title: 'Gestão de RH',
     description: 'Simplifique processos de recrutamento e onboarding com agentes IA especializados.',
   },
   {
-    icon: Bot,
+    icon: '/logos/sistemaapi.jpeg',
     title: 'Automação de Processos',
     description: 'Elimine tarefas repetitivas e aumente a produtividade com automação inteligente.',
   },
   {
-    icon: ShieldCheck,
+    icon: '/logos/estrategiasavancadas.jpeg',
     title: 'Análise de Dados',
     description: 'Tome decisões baseadas em dados com insights gerados por IA em tempo real.',
   },
@@ -37,7 +36,7 @@ const solutions = [
 export default function Solutions() {
   return (
     <section id="solucoes" className="py-20 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-700">
-      <div className="container">
+      <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">
             Soluções Inteligentes para Cada Área
@@ -54,9 +53,11 @@ export default function Solutions() {
               key={index}
               className="bg-blue-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-700/50 hover:border-blue-600/50 transition-all"
             >
-              <div className="w-12 h-12 bg-blue-700/50 rounded-xl flex items-center justify-center mb-6">
-                <solution.icon className="w-6 h-6 text-blue-200" />
-              </div>
+              <img 
+                src={solution.icon}
+                alt={solution.title}
+                className="w-16 h-16 object-contain mb-6"
+              />
               <h3 className="text-xl font-semibold text-white mb-3">
                 {solution.title}
               </h3>
