@@ -32,7 +32,7 @@ Landing page moderna e responsiva para a IAnovar, empresa especializada em solu�
 
 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/landingpageags.git
+git clone https://github.com/engpedrocarneiro/landingpageags.git
 ```
 
 2. Instale as dependências
@@ -76,4 +76,4 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 IAnovar - [contato@ianovar.com.br](mailto:contato@ianovar.com.br)
 
-Link do Projeto: [https://github.com/seu-usuario/landingpageags](https://github.com/seu-usuario/landingpageags)
+Link do Projeto: [https://github.com/engpedrocarneiro/landingpageags](https://github.com/engpedrocarneiro/landingpageags)
